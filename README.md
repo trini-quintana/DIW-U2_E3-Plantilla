@@ -22,12 +22,11 @@ No necesitas servidor: abre `index.html` en el navegador.
 
 1. Crea tu repositorio a partir de esta plantilla con el nombre `DIW-U2_E3-NombreApellido`, **privado**, y añade a la docente (`trini-quintana`) como colaboradora.
 2. Crea las etiquetas: `wcag-A`, `wcag-AA`, `P1`, `P2`, `P3`, `perceptible`, `operable`, `comprensible`, `robusto`, `seo`.
-3. Crea un tablero en GitHub Projects con las columnas **Por hacer**, **En curso**, **Verificando** y **Hecho**, y vincúlalo al repositorio.
-4. Abre una incidencia por cada barrera con la plantilla «Barrera de accesibilidad».
-5. Corrige cada barrera en un commit propio cuyo mensaje diga qué cambia y cierre la incidencia, por ejemplo:
+3. Abre una incidencia por cada barrera con la plantilla «Barrera de accesibilidad».
+4. Corrige cada barrera en un commit propio cuyo mensaje diga qué cambia y cierre la incidencia, por ejemplo:
 
    `Añade texto alternativo a las imágenes de producto (WCAG 1.1.1). Closes #3`
 
-6. Antes de cerrar una incidencia, anota en ella cómo has verificado la corrección.
+5. Antes de cerrar una incidencia, anota en ella cómo has verificado la corrección.
 
 Las fechas, los entregables y la rúbrica están en el enunciado de la tarea, en el aula virtual.
