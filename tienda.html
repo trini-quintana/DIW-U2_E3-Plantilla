@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Página</title>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<div class="cabecera">
+  <a href="index.html" class="logo"><img src="img/logo.svg" width="150" height="44"></a>
+  <div class="menu">
+    <a href="index.html">Inicio</a>
+    <a href="tienda.html" class="activo">Tienda</a>
+    <a href="index.html#tueste">El tueste</a>
+    <a href="index.html#tiendas">Tiendas</a>
+  </div>
+  <a href="#carrito" class="icono-carrito" tabindex="2"><img src="img/carrito.svg" width="26" height="26"></a>
+</div>
+
+<div class="contenido">
+
+  <div class="titular">Tienda</div>
+
+  <div class="filtros">
+    <span class="filtro activo">Todo</span>
+    <span class="filtro">Café en grano</span>
+    <span class="filtro">Café molido</span>
+    <span class="filtro">Accesorios</span>
+  </div>
+
+  <div class="catalogo">
+
+    <div class="producto" data-id="1" data-nombre="Etiopía Yirgacheffe 250 g" data-precio="11.50">
+      <img src="img/etiopia.svg">
+      <h4>Etiopía Yirgacheffe</h4>
+      <p class="secundario">Origen: Etiopía · Tueste claro · Grano 250 g</p>
+      <p class="precio">11,50 €</p>
+      <div class="boton anadir">Añadir al carrito</div>
+    </div>
+
+    <div class="producto" data-id="2" data-nombre="Colombia Huila 250 g" data-precio="10.90">
+      <img src="img/colombia.svg">
+      <h4>Colombia Huila</h4>
+      <p class="secundario">Origen: Colombia · Tueste medio · Molido 250 g</p>
+      <p class="precio oferta">9,90 € <span class="antes">10,90 €</span></p>
+      <div class="boton anadir">Añadir al carrito</div>
+    </div>
+
+    <div class="producto" data-id="3" data-nombre="Brasil Cerrado 1 kg" data-precio="34.00">
+      <img src="img/brasil.svg">
+      <h4>Brasil Cerrado</h4>
+      <p class="secundario">Origen: Brasil · Tueste medio-oscuro · Grano 1 kg</p>
+      <p class="precio">34,00 €</p>
+      <div class="boton anadir">Añadir al carrito</div>
+    </div>
+
+    <div class="producto" data-id="4" data-nombre="Molinillo manual cerámico" data-precio="39.00">
+      <img src="img/molinillo.svg">
+      <h4>Molinillo manual cerámico</h4>
+      <p class="secundario">Accesorio · Muela cerámica regulable</p>
+      <p class="precio">39,00 €</p>
+      <div class="boton anadir">Añadir al carrito</div>
+    </div>
+
+  </div>
+
+  <div class="carrito" id="carrito">
+    <h4>Tu carrito</h4>
+    <ul id="lineas-carrito"></ul>
+    <p class="total">Total: <span id="total">0,00 €</span></p>
+  </div>
+
+  <div class="registro">
+    <h4>Crea tu cuenta para finalizar el pedido</h4>
+    <form id="form-registro" novalidate>
+      <input type="text" id="nombre" placeholder="Nombre y apellidos">
+      <input type="text" id="email" placeholder="Correo electrónico *">
+      <input type="text" id="cp" placeholder="Código postal *">
+      <input type="checkbox" id="privacidad"> Acepto la política de privacidad
+      <div class="boton" id="confirmar">Confirmar pedido</div>
+    </form>
+  </div>
+
+</div>
+
+<div class="aviso" id="aviso"></div>
+
+<div class="pie">
+  <p>Tostadero Alcor · Empresa ficticia creada para la tarea E3 de DIW · <a href="#">Política de privacidad y cookies</a> · <a href="#">Accesibilidad</a></p>
+</div>
+
+<script src="js/tienda.js"></script>
+</body>
+</html>
