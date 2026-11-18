@@ -1,0 +1,51 @@
+/* Tostadero Alcor · hoja de estilos de la agencia anterior */
+* { box-sizing: border-box; }
+*:focus { outline: none; }
+
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #F7F1E8; color: #3B2A20; font-size: 16px; }
+a { color: #8A5A2B; }
+
+.cabecera { position: sticky; top: 0; z-index: 10; display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; padding: 12px 32px; background: #3B2A20; }
+.menu a { color: #FFFFFF; text-decoration: none; margin: 0 12px; font-size: 15px; }
+.menu a.activo { color: #C8A27A; }
+.icono-carrito img { display: block; }
+
+.portada { padding: 56px 32px; text-align: center; }
+.titular { font-size: 34px; font-weight: bold; margin-bottom: 12px; }
+.subtitulo { color: #6B5B4E; max-width: 640px; margin: 0 auto 24px; }
+
+.boton { display: inline-block; padding: 10px 18px; background: #C8A27A; color: #FFFFFF; text-decoration: none;
+  border-radius: 4px; cursor: pointer; font-size: 15px; }
+
+.bloques { display: flex; gap: 24px; padding: 0 32px 48px; }
+.bloque { flex: 1; min-width: 280px; background: #FFFFFF; padding: 20px; border-radius: 6px; }
+.bloque img { width: 100%; height: 120px; object-fit: cover; background: #EFE4D3; }
+.secundario { color: #A08C78; font-size: 14px; }
+
+.contenido { padding: 32px; }
+.filtros { margin: 16px 0 24px; }
+.filtro { display: inline-block; padding: 6px 14px; margin-right: 8px; border-radius: 16px; background: #FFFFFF; cursor: pointer; font-size: 14px; }
+.filtro.activo { background: #C8A27A; color: #FFFFFF; }
+
+.catalogo { display: grid; grid-template-columns: repeat(4, 260px); gap: 20px; }
+.producto { background: #FFFFFF; padding: 16px; border-radius: 6px; }
+.producto img { width: 100%; height: 160px; object-fit: cover; background: #EFE4D3; }
+.producto h4 { margin: 12px 0 4px; font-size: 17px; }
+.precio { font-size: 18px; font-weight: bold; }
+.oferta { color: #E07B53; }
+.antes { color: #B5A99A; text-decoration: line-through; font-size: 14px; font-weight: normal; }
+
+.carrito { margin-top: 32px; background: #FFFFFF; padding: 20px; border-radius: 6px; max-width: 560px; }
+.carrito ul { list-style: none; padding: 0; }
+.carrito li { display: flex; align-items: center; gap: 8px; padding: 4px 0; }
+.cantidad button { width: 18px; height: 18px; padding: 0; font-size: 12px; line-height: 1; border: 1px solid #E6DCCF; background: #FFFFFF; }
+
+.registro { margin-top: 32px; background: #FFFFFF; padding: 20px; border-radius: 6px; max-width: 560px; }
+.registro input[type=text] { display: block; width: 100%; margin-bottom: 12px; padding: 10px; border: 1px solid #E6DCCF; font-size: 15px; }
+.registro input.error { border-color: #D9534F; }
+
+.aviso { position: fixed; right: 24px; bottom: 24px; background: #3B2A20; color: #FFFFFF; padding: 12px 18px; border-radius: 4px; display: none; }
+
+.pie { background: #3B2A20; color: #7A6A5C; padding: 20px 32px; font-size: 13px; }
+.pie a { color: #7A6A5C; }
